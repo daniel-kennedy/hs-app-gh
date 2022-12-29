@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+    "name": "Human Services App",
+    "short_name": "HS-App",
+    "start_url": ".",
+    "display": "standalone",
+    "scope":"/",
+    "background_color": "#fff",
+    "description": "Resource locator for Washington County, PA",
+    "icons": [{
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
+  }
+  

@@ -2,9 +2,8 @@ var cacheName = 'v1.0';
 
 var cacheAssets = [
     'index.html',
-    'about.html',
-    '/js/main.js',
-    '/css/style.css'
+    'script.js',
+    'style.css'
 ]
 
 // installation

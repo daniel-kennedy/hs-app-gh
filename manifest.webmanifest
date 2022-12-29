@@ -6,7 +6,6 @@
     "display": "standalone",
     "scope":"/",
     "background_color": "#fff",
-    
     "icons": [{
       "src": "icon-512.png",
       "sizes": "512x512",

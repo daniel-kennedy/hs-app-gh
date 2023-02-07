@@ -26,8 +26,12 @@
   <section id="sitewide-banner">
     <div>Important messages will go here. <a onclick="dismissSwb();" class="btn btn-outline-light btn-sm float-end" href="#">Dismiss</a></div>
 </section>
-  <div class="text-center mt-5 mb-5">
+  <div class="input-group text-center mt-5 mb-5">
     <input id="filterInput" type="text" class="form-control" placeholder="Type aging, childcare, etc.">
+    <button onclick="searchFindHelp();" class="btn" style="background-color: var(--app-success); color: var(--app-light)" type="button" id="button-addon1">
+      <i class="fa fa-search"></i>
+      Search
+    </button>
   </div>
   <div class="container-fluid">
     <table class="table">

@@ -14,3 +14,14 @@ function dismissSwb() {
 function getFocus(){
   document.getElementById('filterInput').focus();
 }
+
+function getSearchURL(){
+  const term = document.getElementById('filterInput').value;
+  console.log(`https://washingtonpa.findhelp.com/search/text?term=${term}&postal=15301`);
+}
+
+function searchFindHelp(){
+  const term = document.getElementById('filterInput').value;
+  //console.log(`https://washingtonpa.findhelp.com/search/text?term=${term}&postal=15301`);
+  location.href = `https://washingtonpa.findhelp.com/search/text?term=${term}&postal=15301`;
+}
